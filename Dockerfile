@@ -1,5 +1,5 @@
 # Utilisation de l'image Python officielle comme image de base
-FROM python:3.9
+FROM python:3.12.2
 
 # Copie des fichiers de l'application dans le conteneur
 COPY . /app
